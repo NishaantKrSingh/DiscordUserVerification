@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 import pymongo
 
-cluster = MongoClient(f"mongodb+srv://theyseeguy:q8xTmBh8.Mm2a5@verification.pgbyxf6.mongodb.net/?retryWrites=true&w=majority")
+cluster = MongoClient(f" ") #Mongo DB URL
 db = cluster["Users"]
 collection = db["verification"]
 
